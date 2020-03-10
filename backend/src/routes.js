@@ -3,14 +3,6 @@ import multer from 'multer';
 import multerConfig from './config/multer';
 
 import UserController from './app/controllers/UserController';
-import ProviderController from './app/controllers/ProviderController';
-import SessionController from './app/controllers/SessionController';
-import FileController from './app/controllers/FileController';
-import AppointmentController from './app/controllers/AppointmentController';
-import ScheduleController from './app/controllers/ScheduleController';
-import NotificationsController from './app/controllers/NotificationsController';
-import AvailableController from './app/controllers/AvailableController';
-
 import authMiddleware from './app/middlewares/auth';
 
 const routes = new Router();
